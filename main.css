@@ -1,30 +1,26 @@
-.column {
-    display: flex;
-    flex-direction: column;
-}
-
-#all {
-    font-size: 30px;
-}
-
 #all > div {
-    color: white;
-    background-color: blue;
+    background-color: violet;
     width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #all > div > div {
-    background-color: black;
+    background-color: white;
     width: 50%;
     margin: 10px;
     text-align: center;
     line-height: 75px;
-    font-size: 30px;
 }
-/* 
+
 #all > div > div > div {
-    margin: 5px;
-} */
+    color: white;
+    background-color: blue;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
 
 .column-reverse {
     display: flex;
@@ -40,6 +36,8 @@
     display: flex; flex-direction: row-reverse;
 }
 
+
+
 .center {
     display: flex;
     justify-content: center;
@@ -53,4 +51,14 @@
 .flex-end {
     display: flex;
     justify-content: flex-end;
+}
+
+.space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
 }
