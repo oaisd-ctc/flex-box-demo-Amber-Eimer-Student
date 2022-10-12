@@ -1,0 +1,56 @@
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+#all {
+    font-size: 30px;
+}
+
+#all > div {
+    color: white;
+    background-color: blue;
+    width: 50%;
+}
+
+#all > div > div {
+    background-color: black;
+    width: 50%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+/* 
+#all > div > div > div {
+    margin: 5px;
+} */
+
+.column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-reverse {
+    display: flex; flex-direction: row-reverse;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
