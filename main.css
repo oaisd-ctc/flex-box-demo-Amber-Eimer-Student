@@ -7,7 +7,6 @@
 
 .all > div > div {
     background-color: white;
-    /* width: 50%; */
     margin: 10px;
     text-align: center;
     line-height: 75px;
@@ -20,7 +19,6 @@
     margin: 1em;
     line-height: 5em;
 }
-
 
 
 
