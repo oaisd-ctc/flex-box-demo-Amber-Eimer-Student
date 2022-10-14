@@ -1,24 +1,28 @@
-#all > div {
+.all > div {
     background-color: violet;
-    width: 50%;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 10px;
 }
 
-#all > div > div {
+.all > div > div {
     background-color: white;
-    width: 50%;
+    /* width: 50%; */
     margin: 10px;
     text-align: center;
     line-height: 75px;
 }
 
-#all > div > div > div {
+.all > div > div > div {
     color: white;
     background-color: blue;
-    width: 50%;
-    margin: 10px;;
-    line-height: 75px;
+    width: 5em;
+    margin: 1em;
+    line-height: 5em;
 }
+
+
+
 
 .column {
     display: flex;
@@ -40,18 +44,17 @@
 }
 
 
-
-.center {
+.justify-center {
     display: flex;
     justify-content: center;
 }
 
-.flex-start {
+.justify-flex-start {
     display: flex;
     justify-content: flex-start;
 }
 
-.flex-end {
+.justify-flex-end {
     display: flex;
     justify-content: flex-end;
 }
@@ -64,4 +67,53 @@
 .space-between {
     display: flex;
     justify-content: space-between;
+}
+
+
+.align-center {
+    display: flex;
+    height: 200px;
+    align-items: center;
+}
+
+.align-flex-start {
+    display: flex;
+    height: 200px;
+    align-items: flex-start;
+}
+
+.align-flex-end {
+    display: flex;
+    height: 200px;
+    align-items: flex-end;
+}
+
+.stretch {
+    display: flex;
+    height: 200px;
+    align-items: stretch;
+}
+
+.baseline {
+    display: flex;
+    height: 200px;
+    align-items: baseline;
+}
+
+
+
+
+.order {
+    display: flex;
+    align-items: stretch;
+}
+
+.flex-grow {
+    display: flex;
+    align-items: stretch;
+}
+
+.flex {
+    display: flex;
+    align-items: stretch;
 }
