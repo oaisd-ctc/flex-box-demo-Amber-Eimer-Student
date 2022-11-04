@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="eg">
+    <head>
+        <title>Flex demonstration</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="all">
+                <h1>Flex Container</h1>
+                <h2>Flex-derection property</h2>
+                <p>The flex-direction property defines in which direction the container wants to stack the flex items.</p>
+            <div>
+                <h3>column</h3>
+                <p>The column value stacks the flex items vertically (from top to bottom):</p>
+                <div class="column">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                </div>
+            </div>
+            <div>
+                <h3>column-reverse</h3>
+                <p>The column-reverse value stacks the flex items vertically (but from bottom to top):</p>
+                <div class="column-reverse">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                </div>
+            </div>
+            <div>
+                <h3>Row</h3>
+                <p>The row value stacks the flex items horizontally (from left to right):</p>
+                <div class="row">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                </div>
+            </div>
+            <div>
+                <h3>Row-reverse</h3>
+                <p>The row-reverse value stacks the flex items horizontally (but from right to left):</p>
+                <div class="row-reverse">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                </div>
+            </div>
+                <h2>Justify-content property</h2>
+                <p>The justify-content property is used to align the flex items:</p>
+            <div>
+                <h3>Center</h3>
+                <p>The center value aligns the flex items at the center of the container:</p>
+                <div class="justify-center">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                </div>
+            </div>
+            <div>
+                <h3>Flex-start</h3>
+                <p>The flex-start value aligns the flex items at the beginning of the container (this is default):</p>
+                <div class="justify-flex-start">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                </div>
+            </div>
+            <div>
+                <h3>Flex-end</h3>
+                <p>The flex-end value aligns the flex items at the end of the container:</p>
+                <div class="justify-flex-end">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                </div>
+            </div>
+            <div>
+                <h3>Space-around</h3>
+                <p>The space-around value displays the flex items with space before, between, and after the lines:</p>
+                <div class="space-around">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                </div>
+            </div>
+            <div>
+                <h3>Space-between</h3>
+                <p>The space-between value displays the flex items with space between the lines:</p>
+                <div class="space-between">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                </div>
+            </div>
+                <h2>Align items property</h2>
+                <p>The align-items property is used to align the flex items.</p>
+            <div>
+                <h3>Center</h3>
+                <p>The center value aligns the flex items in the middle of the container:</p>
+                <div class="align-center">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                </div>
+            </div>
+            <div>
+                <h3>Flex-start</h3>
+                <p>The flex-start value aligns the flex items at the top of the container:</p>
+                <div class="align-flex-start">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                </div>
+            </div>
+            <div>
+                <h3>Flex-end</h3>
+                <p>The flex-end value aligns the flex items at the bottom of the container:</p>
+                <div class="align-flex-end">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                </div>
+            </div>
+            <div>
+                <h3>Stretch</h3>
+                <p>The stretch value stretches the flex items to fill the container (this is default):</p>
+                <div class="stretch">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                </div>
+            </div>
+            <div>
+                <h3>Baseline</h3>
+                <p>The baseline value aligns the flex items such as their baselines aligns:</p>
+                <div class="baseline">
+                    <div><h1>1</h1></div>
+                    <div>2</div>
+                    <div><h5>3</h5></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="all">
+                <h1>Flex Items</h1>
+                <h2>Order property</h2>
+            <div>
+                <h3>Order</h3>
+                <p>The order property specifies the order of the flex items.</p>
+                <div class="order">
+                    <div style="order: 3">1</div>
+                    <div style="order: 2">2</div>
+                    <div style="order: 4">3</div> 
+                    <div style="order: 1">4</div>
+                </div>
+            </div>
+                <h2>Flex-grow property</h2>
+            <div>
+                <h3>Flex-grow</h3>
+                <p>The flex-grow property specifies how much a flex item will grow relative to the rest of the flex items.</p>
+                <div class="flex-grow">
+                    <div style="flex-grow: 1">1</div>
+                    <div style="flex-grow: 1">2</div>
+                    <div style="flex-grow: 8">3</div>
+                </div>
+            </div>
+                <h2>Flex property</h2>
+            <div>
+                <h3>Flex</h3>
+                <p>The flex property is a shorthand property for the flex-grow, flex-shrink, and flex-basis properties.</p>
+                <div class="flex">
+                    <div>1</div>
+                    <div>2</div>
+                    <div style="flex: 0 0 200px">3</div>
+                    <div>4</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
